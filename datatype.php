@@ -47,6 +47,12 @@ echo "<br>";
 echo "My car is {$cars[0]}";	// 得到 Volvo
 echo "<br>";
 
+$m = array("a" => "apple", "b" => "banana");
+var_dump($m);
+echo "<br>";
+echo "key a: ", $m["a"];	// 得到 apple
+echo "<br>";
+
 // NULL
 $x = null;
 var_dump($x);	// NULL
